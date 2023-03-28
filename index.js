@@ -153,7 +153,7 @@ value: "panel"
                   .then((c)=>{
                  
                       const i1 = new EmbedBuilder()
-                      .setTitle('lrows - Destek Sistemi')
+                      .setTitle('Yazılım Koloniği - Destek Sistemi')
                       .setDescription(`Kullanıcı Destek Talebini **${sebep}** Sebebiyle Oluşturdu!\n\nDestek Oluşturan: ${interaction.user}`)
                       .setColor(0x0099ff)
                       c.send({embeds: [i1], content: `${roleStaff} | ${interaction.user}`, components: [row]})
